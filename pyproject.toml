@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omicimage"
+version = "0.1.0"
+description = "Unifies genomic formats (SAM alignments and CpG methylation data) into a machine-learning–native representation with a shared coordinate system, addressing incompatibilities between standard genomics formats and ML workflows."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Gabriel Abraham", email = "gabriel.abraham.research@gmail.com" }
+]
+keywords = [
+  "bioinformatics",
+  "genomics",
+  "machine-learning",
+  "data-representation",
+  "sam",
+  "methylation",
+  "epigenomics"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+dependencies = [
+  "numpy>=1.20",
+  "pillow>=9.0",
+  "pysam>=0.22",
+  "tqdm>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Abraham-Gabriel/omicimage"
+Repository = "https://github.com/Abraham-Gabriel/omicimage"
+Issues = "https://github.com/Abraham-Gabriel/omicimage/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+build-rgba-nomethylation = "omicimage.build_rgba_nomethylation:main"
+build-rgba-methylation = "omicimage.build_rgba_methylation:main"

@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: omicimage
+authors:
+  - family-names: Abraham
+    given-names: Gabriel
+message: "If you use this software, please cite the associated thesis."
