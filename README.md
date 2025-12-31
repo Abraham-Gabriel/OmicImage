@@ -128,7 +128,24 @@ Run tests (if applicable):
 ```bash
 pytest
 ```
+---
 
+## Citation
+
+If you use **omicimage** in academic work, please cite the software.  
+For the underlying methodology, theoretical framework, and validation, please also cite the associated thesis.
+
+### Software
+
+Abraham, G. P. (2025). *omicimage* (Version 0.1.0). Zenodo.  
+https://doi.org/10.5281/zenodo.18111405
+
+### Thesis
+
+Abraham, G. P. (2025).  
+*The Omic Image Format (OIF): A Unified Machine Learning–Native Representation for Genomic and Epigenomic Data.*  
+MPhil thesis, University of Cambridge.  
+https://doi.org/10.5281/zenodo.18111876
 ---
 
 ## License
