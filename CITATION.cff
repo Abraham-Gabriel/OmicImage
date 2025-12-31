@@ -1,6 +1,31 @@
 cff-version: 1.2.0
 title: omicimage
+version: 0.1.0
+doi: 10.5281/zenodo.18111405
+date-released: 2025-12-31
+
 authors:
   - family-names: Abraham
-    given-names: Gabriel
-message: "If you use this software, please cite the associated thesis."
+    given-names: Gabriel Philip
+    affiliation: University of Cambridge
+    orcid: ""
+
+message: "If you use this software, please cite the software DOI. For the underlying methodology, theoretical framework, and validation, please also cite the associated thesis."
+
+preferred-citation:
+  type: software
+  title: omicimage
+  authors:
+    - family-names: Abraham
+      given-names: Gabriel Philip
+  doi: 10.5281/zenodo.18111405
+  year: 2025
+
+references:
+  - type: thesis
+    title: "The Omic Image Format (OIF): A Unified Machine Learning–Native Representation for Genomic and Epigenomic Data"
+    authors:
+      - family-names: Abraham
+        given-names: Gabriel Philip
+    doi: 10.5281/zenodo.18111876
+    year: 2025
