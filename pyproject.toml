@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "omicimage"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unifies genomic formats (SAM alignments and CpG methylation data) into a machine-learning–native representation with a shared coordinate system, addressing incompatibilities between standard genomics formats and ML workflows."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -36,6 +36,11 @@ dependencies = [
 ]
 
 [project.urls]
+PyPI = "https://pypi.org/project/omicimage/"
+
+DOI = "https://doi.org/10.5281/zenodo.18111405"
+Thesis = "https://doi.org/10.5281/zenodo.18111876"
+
 Homepage = "https://github.com/Abraham-Gabriel/omicimage"
 Repository = "https://github.com/Abraham-Gabriel/omicimage"
 Issues = "https://github.com/Abraham-Gabriel/omicimage/issues"
